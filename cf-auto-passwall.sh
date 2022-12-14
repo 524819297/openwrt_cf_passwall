@@ -414,6 +414,7 @@ while true; do
   #  echo -e "0. 退出\n"
   #  read -p "请选择菜单(默认0): " menu
   echo -e "\033[41;36m 脚本源 badafans 地址 https://github.com/badafans/better-cloudflare-ip \033[0m"
+  echo -e "\033[41;37m 该脚本 地址 https://github.com/524819297/openwrt_cf_passwall \033[0m"
   echo 需要先清空缓存然后进行IPV4优选，请修改menu=0,ipv6请自行修改menu等参数
   echo -e "\033[42;36m =================脚本正在运行中.....======================= \033[0m"
   /etc/init.d/haproxy stop
